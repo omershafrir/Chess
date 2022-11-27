@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Chess</title>
+  </head>
+
+  <body>
+    <div class="board" id="board">
+      <div class="row row1">
+        <div class="cell col1" data-piece="bR">
+          <img src="images/bR.png" alt="" />
+        </div>
+        <div class="cell col2" data-piece="bN">
+          <img src="images/bN.png" alt="" />
+        </div>
+        <div class="cell col3" data-piece="bB">
+          <img src="images/bB.png" alt="" />
+        </div>
+        <div class="cell col4" data-piece="bQ">
+          <img src="images/bQ.png" alt="" />
+        </div>
+        <div class="cell col5" data-piece="bK">
+          <img src="images/bK.png" alt="" />
+        </div>
+        <div class="cell col6" data-piece="bB">
+          <img src="images/bB.png" alt="" />
+        </div>
+        <div class="cell col7" data-piece="bN">
+          <img src="images/bN.png" alt="" />
+        </div>
+        <div class="cell col8" data-piece="bR">
+          <img src="images/bR.png" alt="" />
+        </div>
+        <div class="cell nums"">   1  </div>
+      </div>
+      <div class="row row2">
+        <div class="cell col1" data-piece="bP">
+          <img src="images/bP.png" alt="" />
+        </div>
+        <div class="cell col2" data-piece="bP">
+          <img src="images/bP.png" alt="" />
+        </div>
+        <div class="cell col3" data-piece="bP">
+          <img src="images/bP.png" alt="" />
+        </div>
+        <div class="cell col4" data-piece="bP">
+          <img src="images/bP.png" alt="" />
+        </div>
+        <div class="cell col5" data-piece="bP">
+          <img src="images/bP.png" alt="" />
+        </div>
+        <div class="cell col6" data-piece="bP">
+          <img src="images/bP.png" alt="" />
+        </div>
+        <div class="cell col7" data-piece="bP">
+          <img src="images/bP.png" alt="" />
+        </div>
+        <div class="cell col8" data-piece="bP">
+          <img src="images/bP.png" alt="" />
+        </div>
+        <div class="cell nums">   2  </div>
+      </div>
+      <div class="row row3">
+        <div class="cell col1" data-piece="none"></div>
+        <div class="cell col2" data-piece="none"></div>
+        <div class="cell col3" data-piece="none"></div>
+        <div class="cell col4" data-piece="none"></div>
+        <div class="cell col5" data-piece="none"></div>
+        <div class="cell col6" data-piece="none"></div>
+        <div class="cell col7" data-piece="none"></div>
+        <div class="cell col8" data-piece="none"></div>
+        <div class="cell nums">   3  </div>
+      </div>
+      <div class="row row4">
+        <div class="cell col1" data-piece="none"></div>
+        <div class="cell col2" data-piece="none"></div>
+        <div class="cell col3" data-piece="none"></div>
+        <div class="cell col4" data-piece="none"></div>
+        <div class="cell col5" data-piece="none"></div>
+        <div class="cell col6" data-piece="none"></div>
+        <div class="cell col7" data-piece="none"></div>
+        <div class="cell col8" data-piece="none"></div>
+        <div class="cell nums">   4  </div>
+      </div>
+      <div class="row row5">
+        <div class="cell col1" data-piece="none"></div>
+        <div class="cell col2" data-piece="none"></div>
+        <div class="cell col3" data-piece="none"></div>
+        <div class="cell col4" data-piece="none"></div>
+        <div class="cell col5" data-piece="none"></div>
+        <div class="cell col6" data-piece="none"></div>
+        <div class="cell col7" data-piece="none"></div>
+        <div class="cell col8" data-piece="none"></div>
+        <div class="cell nums">   5  </div>
+      </div>
+      <div class="row row6">
+        <div class="cell col1" data-piece="none"></div>
+        <div class="cell col2" data-piece="none"></div>
+        <div class="cell col3" data-piece="none"></div>
+        <div class="cell col4" data-piece="none"></div>
+        <div class="cell col5" data-piece="none"></div>
+        <div class="cell col6" data-piece="none"></div>
+        <div class="cell col7" data-piece="none"></div>
+        <div class="cell col8" data-piece="none"></div>
+        <div class="cell nums">   6  </div>
+      </div>
+      <div class="row row7">
+        <div class="cell col1" data-piece="wP">
+          <img src="images/wP.png" alt="" />
+        </div>
+        <div class="cell col2" data-piece="wP">
+          <img src="images/wP.png" alt="" />
+        </div>
+        <div class="cell col3" data-piece="wP">
+          <img src="images/wP.png" alt="" />
+        </div>
+        <div class="cell col4" data-piece="wP">
+          <img src="images/wP.png" alt="" />
+        </div>
+        <div class="cell col5" data-piece="wP">
+          <img src="images/wP.png" alt="" />
+        </div>
+        <div class="cell col6" data-piece="wP">
+          <img src="images/wP.png" alt="" />
+        </div>
+        <div class="cell col7" data-piece="wP">
+          <img src="images/wP.png" alt="" />
+        </div>
+        <div class="cell col8" data-piece="wP">
+          <img src="images/wP.png" alt="" />
+        </div>
+        <div class="cell nums">   7  </div>
+      </div>
+      <div class="row row8">
+        <div class="cell col1" data-piece="wR">
+          <img src="images/wR.png" alt="" />
+        </div>
+        <div class="cell col2" data-piece="wN">
+          <img src="images/wN.png" alt="" />
+        </div>
+        <div class="cell col3" data-piece="wB">
+          <img src="images/wB.png" alt="" />
+        </div>
+        <div class="cell col4" data-piece="wQ">
+          <img src="images/wQ.png" alt="" />
+        </div>
+        <div class="cell col5" data-piece="wK">
+          <img src="images/wK.png" alt="" />
+        </div>
+        <div class="cell col6" data-piece="wB">
+          <img src="images/wB.png" alt="" />
+        </div>
+        <div class="cell col7" data-piece="wN">
+          <img src="images/wN.png" alt="" />
+        </div>
+        <div class="cell col8" data-piece="wR">
+          <img src="images/wR.png" alt="" />
+        </div>
+        <div class="cell nums">   8  </div>
+      </div>
+      <div class="nums">
+        <div class="cell nums">1</div>
+        <div class="cell nums">2</div>
+        <div class="cell nums">3</div>
+        <div class="cell nums">4</div>
+        <div class="cell nums">5</div>
+        <div class="cell nums">6</div>
+        <div class="cell nums">7</div>
+        <div class="cell nums">8</div>
+      </div>
+    </div>
+    <button>Toggle Nums</button >
+
+    <script src="chess.js"></script>
+  </body>
+</html>
